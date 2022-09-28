@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"),
+    url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
+      format("woff2");
+}
+
+main {
+  font-family: "Product Sans";
+}
+
+#nav-principal ul {
+  display: flex;
+  text-decoration: none;
+  justify-content: flex-end;
+}
+
+#nav-principal ul li {
+  display: flex;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+#nav-principal ul :nth-last-child(1) {
+  border-radius: 80%;
+  padding-right: 10px;
+  width: 30px;
+}
+
+#icon-google {
+  display: flex;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+#icon-google img {
+  width: 30%;
+}
+
+#search-form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#search-form input[type="text"] {
+  height: 1.5rem;
+  width: 45rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 7px 4px 9px 40px;
+  background: transparent
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat 13px center;
+}
+.voice{
+    height:20px;
+    position:relative;
+    top:5px;
+    left:10px;
+    
+  }
+
+  #search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+  }
+
+
+  #search-button input[type="button"] {
+    font-family: "Product Sans";
+    margin-right: 30px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  footer{
+
+    margin-top: 150px;
+    width: 100%;
+    height: 0px;
+    background-color: #f5f5f5;
+    text-decoration: none;
+  }
+
+
+  #list-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px;
+  }
+
+  #list-footer :nth-last-child(3){
+     justify-items: end;
+  }
+
+  #list-footer li{
+    text-decoration: none;
+    list-style: none;
+
+  }
+  
